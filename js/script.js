@@ -11,17 +11,28 @@ project 1 - A Random Quote Generator
  * `quotes` array
 ***/
 
+var quotes = ['I believe I can fly', 'We will either find a way, or make one',
+'Indeed, in the rememberance of Allah to hearts find rest']
+
 
 
 /***
  * `getRandomQuote` function
 ***/
 
+var getRandomQuote = function() {
+  var index = Math.floor(Math.Random() * quotes.length)
+
+  var quote = quotes[index]
+}
 
 /***
  * `printQuote` function
 ***/
 
+var printQuote = function() {
+
+}
 
 
 /***
