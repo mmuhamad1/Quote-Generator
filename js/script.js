@@ -13,7 +13,7 @@ project 1 - A Random Quote Generator
 
 var quotes = [
   {quote: 'I believe I can fly', source: 'R. Kelly'}, {quote: 'We will either find a way, or make one', source: 'Hannabil'},
-{quote: 'Indeed, in the rememberance of Allah to hearts find rest', source: 'Allah', citation: 'Quran', year: 630}
+{quote: 'Indeed, in the rememberance of Allah to hearts find rest', source: 'Allah', citation: 'Quran', year: '630 CE'}
 ]
 
 
@@ -25,7 +25,7 @@ var quotes = [
 var getRandomQuote = function() {
   var index = Math.floor(Math.Random() * quotes.length)
 
-  var quote = quotes[index]
+  return quotes[index]
 }
 
 /***
